@@ -1,0 +1,6 @@
+description: Purescript template
+hooks:
+    - lorri init
+    - direnv allow
+    - git init
+    - nix-shell --command spago build
